@@ -1,0 +1,1 @@
+/usr/bin/cc -g -rdynamic CMakeFiles/self_cultivation_of_programmer.dir/main.c.o -o self_cultivation_of_programmer 
