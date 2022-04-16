@@ -1,3 +1,4 @@
-/mnt/d/research/self-cultivation-of-programmer/cmake-build-debug/CMakeFiles/edit_cache.dir
 /mnt/d/research/self-cultivation-of-programmer/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/mnt/d/research/self-cultivation-of-programmer/cmake-build-debug/CMakeFiles/self_cultivation_of_programmer.dir
+/mnt/d/research/self-cultivation-of-programmer/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/d/research/self-cultivation-of-programmer/cmake-build-debug/CMakeFiles/2.dir
+/mnt/d/research/self-cultivation-of-programmer/cmake-build-debug/CMakeFiles/1.dir

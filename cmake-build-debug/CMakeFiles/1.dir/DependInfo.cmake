@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/mnt/d/research/self-cultivation-of-programmer/main.c" "CMakeFiles/self_cultivation_of_programmer.dir/main.c.o" "gcc" "CMakeFiles/self_cultivation_of_programmer.dir/main.c.o.d"
+  "/mnt/d/research/self-cultivation-of-programmer/main.c" "CMakeFiles/1.dir/main.c.o" "gcc" "CMakeFiles/1.dir/main.c.o.d"
   )
 
 # Targets to which this target links.

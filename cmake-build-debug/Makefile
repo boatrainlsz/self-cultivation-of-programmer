@@ -65,16 +65,6 @@ CMAKE_BINARY_DIR = /mnt/d/research/self-cultivation-of-programmer/cmake-build-de
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/opt/cmake-3.21.6-linux-x86_64/bin/cmake-gui -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -84,6 +74,16 @@ rebuild_cache:
 # Special rule for the target rebuild_cache
 rebuild_cache/fast: rebuild_cache
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/opt/cmake-3.21.6-linux-x86_64/bin/cmake-gui -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -117,24 +117,61 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named self_cultivation_of_programmer
+# Target rules for targets named 2
 
 # Build rule for target.
-self_cultivation_of_programmer: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 self_cultivation_of_programmer
-.PHONY : self_cultivation_of_programmer
+2 : cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 2
+.PHONY : 2
 
 # fast build rule for target.
-self_cultivation_of_programmer/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/self_cultivation_of_programmer.dir/build.make CMakeFiles/self_cultivation_of_programmer.dir/build
-.PHONY : self_cultivation_of_programmer/fast
+2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2.dir/build.make CMakeFiles/2.dir/build
+.PHONY : 2/fast
+
+#=============================================================================
+# Target rules for targets named 1
+
+# Build rule for target.
+1 : cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 1
+.PHONY : 1
+
+# fast build rule for target.
+1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/build
+.PHONY : 1/fast
+
+TinyHelloWorld.o: TinyHelloWorld.c.o
+.PHONY : TinyHelloWorld.o
+
+# target to build an object file
+TinyHelloWorld.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2.dir/build.make CMakeFiles/2.dir/TinyHelloWorld.c.o
+.PHONY : TinyHelloWorld.c.o
+
+TinyHelloWorld.i: TinyHelloWorld.c.i
+.PHONY : TinyHelloWorld.i
+
+# target to preprocess a source file
+TinyHelloWorld.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2.dir/build.make CMakeFiles/2.dir/TinyHelloWorld.c.i
+.PHONY : TinyHelloWorld.c.i
+
+TinyHelloWorld.s: TinyHelloWorld.c.s
+.PHONY : TinyHelloWorld.s
+
+# target to generate assembly for a file
+TinyHelloWorld.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2.dir/build.make CMakeFiles/2.dir/TinyHelloWorld.c.s
+.PHONY : TinyHelloWorld.c.s
 
 main.o: main.c.o
 .PHONY : main.o
 
 # target to build an object file
 main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/self_cultivation_of_programmer.dir/build.make CMakeFiles/self_cultivation_of_programmer.dir/main.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/main.c.o
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -142,7 +179,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/self_cultivation_of_programmer.dir/build.make CMakeFiles/self_cultivation_of_programmer.dir/main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -150,7 +187,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/self_cultivation_of_programmer.dir/build.make CMakeFiles/self_cultivation_of_programmer.dir/main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/main.c.s
 .PHONY : main.c.s
 
 # Help Target
@@ -161,7 +198,11 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... self_cultivation_of_programmer"
+	@echo "... 1"
+	@echo "... 2"
+	@echo "... TinyHelloWorld.o"
+	@echo "... TinyHelloWorld.i"
+	@echo "... TinyHelloWorld.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

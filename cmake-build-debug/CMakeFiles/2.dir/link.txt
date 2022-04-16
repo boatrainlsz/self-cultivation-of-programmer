@@ -1,0 +1,1 @@
+/usr/bin/cc -g -rdynamic CMakeFiles/2.dir/TinyHelloWorld.c.o -o 2 

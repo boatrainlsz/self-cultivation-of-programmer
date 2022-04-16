@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "self_cultivation_of_programmer"
+			"path" : "1"
 		}
 	],
 	"backtrace" : 1,
@@ -56,7 +56,7 @@
 			]
 		}
 	],
-	"id" : "self_cultivation_of_programmer::@6890427a1f51a3e7e1df",
+	"id" : "1::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -72,8 +72,8 @@
 		],
 		"language" : "C"
 	},
-	"name" : "self_cultivation_of_programmer",
-	"nameOnDisk" : "self_cultivation_of_programmer",
+	"name" : "1",
+	"nameOnDisk" : "1",
 	"paths" : 
 	{
 		"build" : ".",
