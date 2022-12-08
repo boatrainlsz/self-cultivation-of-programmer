@@ -1,4 +1,4 @@
-/mnt/d/research/self-cultivation-of-programmer/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/mnt/d/research/self-cultivation-of-programmer/cmake-build-debug/CMakeFiles/edit_cache.dir
-/mnt/d/research/self-cultivation-of-programmer/cmake-build-debug/CMakeFiles/2.dir
-/mnt/d/research/self-cultivation-of-programmer/cmake-build-debug/CMakeFiles/1.dir
+/home/boatrain/research/self-cultivation-of-programmer/cmake-build-debug/CMakeFiles/1.dir
+/home/boatrain/research/self-cultivation-of-programmer/cmake-build-debug/CMakeFiles/2.dir
+/home/boatrain/research/self-cultivation-of-programmer/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/boatrain/research/self-cultivation-of-programmer/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/d/research/self-cultivation-of-programmer
+# Install script for directory: /home/boatrain/research/self-cultivation-of-programmer
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/mnt/d/research/self-cultivation-of-programmer/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/boatrain/research/self-cultivation-of-programmer/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
